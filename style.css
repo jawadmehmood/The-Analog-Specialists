@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+}
+body{
+    margin: 10px;
+    border: 4px double black;
+}
+#logo{
+    text-align: center;
+    margin: 25px;
+}
+#nav{
+    border-top: 2px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0px;
+    text-transform: uppercase;
+}
+li{
+    display: inline;
+    margin: 0px 25px;
+    cursor: pointer;
+}
+li:hover , li.on{
+    color: #df6766;
+}
+#image{
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+#para{
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
